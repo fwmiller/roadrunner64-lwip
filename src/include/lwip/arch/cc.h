@@ -56,4 +56,6 @@ typedef uintptr_t   mem_ptr_t;
     } while (0)
 #endif
 
+#define LWIP_RAND rand
+
 #endif /* __ARCH_CC_H__ */
