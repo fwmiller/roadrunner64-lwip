@@ -140,7 +140,7 @@ typedef uintptr_t mem_ptr_t;
  * lwip/arch.h yourself in this case (X8_F, U16_F...).
  */
 #ifndef LWIP_NO_INTTYPES_H
-#define LWIP_NO_INTTYPES_H 0
+#define LWIP_NO_INTTYPES_H 1
 #endif
 
 /* Define (sn)printf formatters for these lwIP types */
